@@ -10,9 +10,17 @@
 
 2) Ensuite, ajoutez un fichier docker-compose.yml à la racine du projet :
 
-3) Construisez l'image avec le docker compose: docker-compose build
+3) Construisez l'image avec le docker compose: 
+   
+````shell
+docker-compose build
+````
 
-4) Une fois l'image créée, exécutez le conteneur : docker-compose up -d
+4) Une fois l'image créée, exécutez le conteneur : 
+
+````shell
+docker-compose up -d
+````
 
 5) Accédez à http://localhost:8008 pour afficher la requete de votre fastapi
 

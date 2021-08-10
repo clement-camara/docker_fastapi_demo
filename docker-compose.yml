@@ -7,10 +7,8 @@ services:
     volumes:
       - .:/app
     ports:
-      - target: 8080
-        x-aws-protocol: http
-    image: "deploiement_clement"
-
+      - 8008:8000
+    image: "fast_api_clement_training"
 
 
 
